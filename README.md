@@ -5,7 +5,7 @@ A Vue.js prototype function, `this.$hasPermissions()`, which accepts a String or
 ## Usage
 
 ### Plugin Installation
-```js
+```vue
 import VueHasPermissions from 'vue-has-permissions';
 
 // A user's given permissions for demonstration purposes
@@ -17,7 +17,7 @@ Vue.use(VueHasPermissions, {
 ```
 
 ### Use In Component
-```js
+```vue
 <template>
   <div>
     <p v-if="$hasPermissions('Billing')">
