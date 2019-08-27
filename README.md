@@ -19,9 +19,15 @@ Vue.use(VueHasPermissions, {
 ### Use In Component
 ```js
 <template>
-    <div>
-        <p v-if="$hasPermissions('Billing')">This will only render if the user has the 'Billing' permission</p>
-        <p v-if="$hasPermissions(['Create', 'RemoveUser'])">This will only render if the user has either the 'Create' or 'RemoveUser' permission</p>
-    </div>
+  <div>
+    <p v-if="$hasPermissions('Billing')">
+      This will only render if the user has 
+      the 'Billing' permission
+    </p>
+    <p v-if="$hasPermissions(['Create', 'RemoveUser'])">
+      This will only render if the user has
+      either the 'Create' or 'RemoveUser' permission
+    </p>
+  </div>
 </template>
 ```
