@@ -2,9 +2,9 @@
   "name": "vue-has-permissions",
   "description": "A Vue.js prototype function which checks whether or not a user has the permissions / role required for certain components to render or code to run",
   "author": "Ravi Pradhan (https://ravii.dev)",
-  "main": "dist/",
+  "main": "dist/vue-has-permissions.common.js",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-has-permissions ./src/plugin/hasPermissions.js",
@@ -13,6 +13,9 @@
   "keywords": [
     "vue",
     "permissions"
+  ],
+  "files": [
+    "dist/*"
   ],
   "dependencies": {
     "core-js": "^2.6.5",
