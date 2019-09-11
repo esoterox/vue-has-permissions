@@ -5,6 +5,10 @@ A Vue.js prototype function, `this.$hasPermissions()`, which accepts a String or
 ## Usage
 
 ### Plugin Installation
+```
+npm install vue-has-permissions
+```
+
 ```vue
 import VueHasPermissions from 'vue-has-permissions';
 
